@@ -1,0 +1,52 @@
+<resources>
+
+    <color name="appBG">#ecf0f1</color>
+    <color name="toolBG">#757D75</color>
+    <color name="listBG">#27ae60</color>
+    <color name="white">#ffffff</color>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/appBG</item>
+
+    </style>
+
+    <style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    <style name="Theme.Default" parent="@android:style/Theme"></style>
+    <style name="Theme.NoTitle" parent="@android:style/Theme.NoTitleBar"></style>
+    <style name="Theme.FullScreen" parent="@android:style/Theme.NoTitleBar.Fullscreen"></style>
+    <style name="Theme.DeviceDefault.NoActionBa‌​r.Fullscreen" parent="@android:style/Theme.NoTitleBar.Fullscreen"></style>
+
+
+    <string-array name="site_names">
+        <item>Gamurs.com</item>
+        <item>Dexerto.com</item>
+        <item>CWL.com</item>
+    </string-array>
+
+
+    <string-array name="regions">
+        <item>North America</item>
+        <item>Europe</item>
+        <item>Oceania</item>
+    </string-array>
+
+    <string-array name="seasons">
+        <item>Season 1</item>
+        <item>Season 2</item>
+    </string-array>
+
+    <style name="TwoWayView">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+
+</resources>

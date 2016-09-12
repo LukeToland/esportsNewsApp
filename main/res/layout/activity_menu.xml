@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.project.opticproject.menu"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView2"
+        android:src="@mipmap/background"
+        android:layout_alignParentBottom="true"
+        android:alpha="0.75"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="5"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@mipmap/logo"
+                android:background="#00000000"
+                android:alpha="0.75"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="3">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="08dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#ffffff"
+                android:text="Call of Duty® eSports News"
+                android:id="@+id/btnNews"
+                android:weightSum="1"/>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="08dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#ffffff"
+                android:text="Call of Duty® World League - Season Standings"
+                android:id="@+id/btnStandings"
+                android:weightSum="1"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="08dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#ffffff"
+                android:text="Call of Duty® World League - Team Rosters"
+                android:id="@+id/btnRosters"
+                android:weightSum="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
